@@ -1,0 +1,32 @@
+.App {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  background-color: rgb(0, 0, 75);
+  color: antiquewhite;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.post-list {
+display: flex;
+flex-direction: column;
+gap: 2em;
+border-radius: 4em;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid aqua;
+  padding: 1em;
+  background-color: slateblue;
+  border-radius: 1em;
+}
